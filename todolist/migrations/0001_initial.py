@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('subject', models.CharField(max_length=60)),
                 ('description', models.CharField(max_length=500)),
                 ('extraDetails', models.CharField(max_length=500)),
-                ('submittions', models.DateTimeField()),
+                ('submissions', models.DateTimeField()),
             ],
         ),
     ]
